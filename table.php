@@ -67,7 +67,7 @@
             }
             if (!empty($_POST['delete'])){
                $resultdelete =$db->query("ALTER TABLE $tablename DROP COLUMN $name ");
-           header("Location: table.php");
+               header("Location: table.php");
        }
    ?>
     </form>
